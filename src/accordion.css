@@ -1,0 +1,27 @@
+
+
+.data-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .data-item span {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    padding: 2%;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+  
+  .data-item input {
+    flex-shrink: 0; 
+  }
+  
+  .title{
+    float:left;
+  }

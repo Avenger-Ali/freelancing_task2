@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  margin: auto;
+  width: 95%;
+}
+
+.business{
+  height: 25px;
+  border-radius: 5px;
+  margin:15px;
+}
+
+.content{
+  height:450px;
+  margin: auto;
+  width: 95%;
+  border-radius: 15px;
+  background-color: rgb(103, 4, 196);
+  border: 1px solid #4CAF50;
+
+}
+
+.business_button{
+  width:50px;
+  height:auto;
+  border-radius: 15px;
+  margin:10px;
+  float: left;
+  border: 1px solid white;
+  color: rgb(103, 4, 196);
+}
+
+.accordion_button {
+  float: right;
+  width: 20px;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(103, 4, 196);
+  margin: 10px;
+  border: 1px solid white;
+  color: white;
+}
+
+table{
+  /* width:80%; */
+  text-align: center;
+}
+
+th{
+  /* white-space:pre-line; */
+  /* word-break: break-all; */
+  color:white;
+}
+
+td:first-child{
+  color: white;
+  text-align: end;
+}
+
+td:not(:first-of-type){
+  color: white;
+  background-color: cornflowerblue;
+  /* cornflowerblue */
+}
+
+.data_input{
+  border-radius: 5px;
+  border: 1px solid white;
+  margin: 5px;
+  float:right;
+}
+
+.line{
+  border: 1px solid white;
+  width: 68%;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.data_table{
+  float:left;
+  width: 75%;
+  margin: 5px;
+  margin-top: 50px;
+}
+
+.side_content{
+  float: right;
+  margin-top: 50px;
+  border: 1px solid white;
+  height: 100%;
+  width: 14%;
+  margin-left: 11px;
+}
+
+.distribution-container {
+  /* display: flex-start; */
+  flex-direction: column;
+  align-items: start; /* This will ensure the contents inside are aligned to the start */
+  width: 100%;
+}
+
+.discover-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Spreads content across the full width */
+  align-items: center;
+  padding: 15px;
+}
+
+.custom-title-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px; /* This provides space between the items */
+}
+
+.rounded-container {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* to ensure that the rounded corners apply to the inner content too */
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+
+
+.accordion-section {
+  width: 98%;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden; /* Ensures that content inside doesn't overflow the rounded corners */
+}
+
+
+.accordion {
+  display: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion_icon{
+  /* float:right; */
+}
+
+/* td:not(:first-of-type),.table_data_style{
+  width: 70px;
+} */
+
+.table_data_headers{
+  /* width: auto; */
+  /* margin-left:25px; */
+}
+
+td:not(:first-of-type){
+  width:50px;
+}
+
+
